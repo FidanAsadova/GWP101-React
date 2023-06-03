@@ -1,0 +1,13 @@
+.home-page .container .home .head {
+  display: flex;
+  flex-direction: column;
+}
+.home-page .container .home .head .head-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.home-page .container .home .head .head-body {
+  color: gray;
+  text-align: center;
+}/*# sourceMappingURL=Home.css.map */

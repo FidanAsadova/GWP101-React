@@ -1,0 +1,22 @@
+.header {
+    background-color: #0D1128;
+  .container {
+    .header-div {
+        padding: 20px 0;
+      nav{
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            justify-content: center;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.header {
+  background-color: #0D1128;
+}
+.header .container .header-div {
+  padding: 20px 0;
+}
+.header .container .header-div nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+}
+.header .container .header-div nav ul li a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=Header.css.map */

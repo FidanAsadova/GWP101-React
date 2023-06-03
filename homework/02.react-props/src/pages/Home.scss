@@ -1,0 +1,20 @@
+.home-page{
+    .container{
+        .home{
+            .head{
+                display: flex;
+                flex-direction: column;
+                .head-title{
+                    font-size: 40px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .head-body{
+                    color: gray;
+                    text-align: center;
+                    
+                }
+            }
+        }
+    }
+}
