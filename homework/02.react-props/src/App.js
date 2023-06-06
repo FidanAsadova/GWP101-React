@@ -29,8 +29,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
-      <Cards data={data} />
+      <Home data={data}/>
+     
     </div>
   );
 }

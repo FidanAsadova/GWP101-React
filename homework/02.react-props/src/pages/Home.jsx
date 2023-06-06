@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.scss";
+import Cards from "../components/Cards";
 
-const Home = () => {
+const Home = ({data}) => {
   return (
     <div className="home-page">
       <div className="container">
@@ -13,8 +14,8 @@ const Home = () => {
               place and supplies it with the necessary regelialia. It is a
               paradisematic country
             </p>
+            <Cards data={data}/>
           </div>
-
         </div>
       </div>
     </div>
