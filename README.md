@@ -1,1 +1,1 @@
-# GWP101-React
+# React
