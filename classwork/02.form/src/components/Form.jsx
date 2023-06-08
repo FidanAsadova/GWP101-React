@@ -11,6 +11,7 @@ const Form = () => {
     imdbRating: "",
   });
 
+  // post
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(inputValue);
@@ -31,7 +32,7 @@ const Form = () => {
           <div className="col col-3"></div>
           <div className="col col-6">
             <form action="" onSubmit={handleSubmit}>
-              <h2 className="text-center p-2">Movie Form</h2>
+              <h2 className="text-center p-2">Form</h2>
               <div className="title-div mb-3">
                 <label htmlFor="title">Title</label>
                 <input
@@ -39,7 +40,7 @@ const Form = () => {
                   name="title"
                   id="formTitle"
                   className="form-control"
-                  placeholder='Enter a title...'
+                  placeholder="Enter a title..."
                   value={inputValue.Title}
                   onChange={(e) =>
                     setInputValue({ ...inputValue, Title: e.target.value })
@@ -53,7 +54,7 @@ const Form = () => {
                   name="year"
                   id="formYear"
                   className="form-control"
-                  placeholder='Enter a year...'
+                  placeholder="Enter a year..."
                   value={inputValue.Year}
                   onChange={(e) =>
                     setInputValue({ ...inputValue, Year: e.target.value })
@@ -67,7 +68,7 @@ const Form = () => {
                   name="genre"
                   id="formGenre"
                   className="form-control"
-                  placeholder='Enter a genre...'
+                  placeholder="Enter a genre..."
                   value={inputValue.Genre}
                   onChange={(e) =>
                     setInputValue({ ...inputValue, Genre: e.target.value })
@@ -81,7 +82,7 @@ const Form = () => {
                   name="lang"
                   id="formLang"
                   className="form-control"
-                  placeholder='Enter a language...'
+                  placeholder="Enter a language..."
                   value={inputValue.Language}
                   onChange={(e) =>
                     setInputValue({ ...inputValue, Language: e.target.value })
@@ -95,7 +96,7 @@ const Form = () => {
                   name="imdb"
                   id="formImdb"
                   className="form-control"
-                  placeholder='Enter an imbd...'
+                  placeholder="Enter an imbd..."
                   value={inputValue.imdbRating}
                   onChange={(e) =>
                     setInputValue({ ...inputValue, imdbRating: e.target.value })
